@@ -8,11 +8,12 @@
   
   <style>
   body{
-    background-color: rosybrown;
+    /* background-color: rosybrown;
     background-image: url(cat.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 20px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px; */
     }
   
   #aboutUs, #home, #gallery, #contactUs{
@@ -107,7 +108,7 @@
       font-size: 15px;
       font-weight: bold;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      /* border */: 2px solid red;
+      /* border: 2px solid red; */
       padding: 0px 5px;
       text-decoration: none;
 
@@ -170,16 +171,28 @@
       
       /* background-position: fixed; */
   }
+  #main-img{
+    background-color: rosybrown;
+    background-image: url(cat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    height: 100vh;
+  }
   
   </style>
 </head>
 <body>
+    <div id="main-img">
+        <h1 id="Head">Web Page</h1>
+    </div>
 
       
-      <div id="bgImage">    
-          <h1 id="Head">Web Page</h1>
+      <!-- <div id="bgImage">    
+         
 
-      </div>
+      </div> -->
   
   <nav class="navig">
     <ul>

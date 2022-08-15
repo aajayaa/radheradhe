@@ -38,6 +38,9 @@
         border: 3px solid maroon;
         border-bottom-left-radius:10mm;
         border-bottom-right-radius: 10mm;
+        position: absolute;
+        top: 40px;
+        left: 50%;
     }
     #iniLetter{
       font-family: fantasy;
@@ -171,13 +174,17 @@
       
       /* background-position: fixed; */
   }
-  #main-img{
+  /* #main-img{
     background-color: rosybrown;
     background-image: url(cat.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     padding-top: 20px;
+    height: 100vh;
+  } */
+  .cat{
+    width: 100vw;
     height: 100vh;
   }
   
@@ -185,6 +192,7 @@
 </head>
 <body>
     <div id="main-img">
+        <img src="cat.jpg" alt="" srcset="" class="cat">
         <h1 id="Head">Web Page</h1>
     </div>
 
